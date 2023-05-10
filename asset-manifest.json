@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.51ca36b5.css",
-    "main.js": "/static/js/main.fa443e47.js",
-    "static/js/787.001e509f.chunk.js": "/static/js/787.001e509f.chunk.js",
-    "index.html": "/index.html",
-    "main.51ca36b5.css.map": "/static/css/main.51ca36b5.css.map",
-    "main.fa443e47.js.map": "/static/js/main.fa443e47.js.map",
-    "787.001e509f.chunk.js.map": "/static/js/787.001e509f.chunk.js.map"
+    "main.css": "/contractAutomation/static/css/main.51ca36b5.css",
+    "main.js": "/contractAutomation/static/js/main.ad3d5c75.js",
+    "static/js/787.001e509f.chunk.js": "/contractAutomation/static/js/787.001e509f.chunk.js",
+    "index.html": "/contractAutomation/index.html",
+    "main.51ca36b5.css.map": "/contractAutomation/static/css/main.51ca36b5.css.map",
+    "main.ad3d5c75.js.map": "/contractAutomation/static/js/main.ad3d5c75.js.map",
+    "787.001e509f.chunk.js.map": "/contractAutomation/static/js/787.001e509f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51ca36b5.css",
-    "static/js/main.fa443e47.js"
+    "static/js/main.ad3d5c75.js"
   ]
 }
