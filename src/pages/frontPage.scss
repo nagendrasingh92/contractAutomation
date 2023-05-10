@@ -1,0 +1,17 @@
+.frontPageWrap{
+height: 10em;
+position: relative;
+.frontPageContent{
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    .frontPageLink{
+        .link{
+            padding: 5px;
+        }
+    }
+}
+}
