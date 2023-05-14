@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/contractAutomation/static/css/main.c1c11b04.css",
-    "main.js": "/contractAutomation/static/js/main.39593275.js",
+    "main.css": "/contractAutomation/static/css/main.a80dd301.css",
+    "main.js": "/contractAutomation/static/js/main.da788555.js",
     "static/js/787.001e509f.chunk.js": "/contractAutomation/static/js/787.001e509f.chunk.js",
     "index.html": "/contractAutomation/index.html",
-    "main.c1c11b04.css.map": "/contractAutomation/static/css/main.c1c11b04.css.map",
-    "main.39593275.js.map": "/contractAutomation/static/js/main.39593275.js.map",
+    "main.a80dd301.css.map": "/contractAutomation/static/css/main.a80dd301.css.map",
+    "main.da788555.js.map": "/contractAutomation/static/js/main.da788555.js.map",
     "787.001e509f.chunk.js.map": "/contractAutomation/static/js/787.001e509f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1c11b04.css",
-    "static/js/main.39593275.js"
+    "static/css/main.a80dd301.css",
+    "static/js/main.da788555.js"
   ]
 }
