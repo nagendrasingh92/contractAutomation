@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from "react-redux";
-import { setCustomerData, selectorCustomer } from "../store/reducers/customer";
-import { setContractData, selectorContract } from "../store/reducers/contract";
+import { setCustomerData, selectorCustomer } from "../../store/reducers/customer";
+import { setContractData, selectorContract } from "../../store/reducers/contract";
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
@@ -12,10 +12,9 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
-import { fetchCustomer } from '../store/reducers/customer/thunk';
-import { fetchContract } from '../store/reducers/contract/thunk';
-
-import './customerList.scss';
+import { fetchCustomer } from '../../store/reducers/customer/thunk';
+import { fetchContract } from '../../store/reducers/contract/thunk';
+import StyledCustomerList from  './StyledCustomerList'
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -56,7 +55,7 @@ function CustomerList() {
     // setContractName(temContractList);
   }
   return (
-    <div className='pageWrap'>
+    <StyledCustomerList className='pageWrap'>
       <div className='customerListWrap'>
         <TableContainer component={Paper}>
           <Table aria-label="customized table">
@@ -108,7 +107,7 @@ function CustomerList() {
       <div>
 
       </div>
-    </div>
+    </StyledCustomerList>
 
   )
 }

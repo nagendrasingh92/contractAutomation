@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from "react-redux";
-import { setContractData, selectorContract } from '../store/reducers/contract';
+import { setContractData, selectorContract } from '../../store/reducers/contract';
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
@@ -10,8 +10,9 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import './contractList.scss'
-import { fetchContract } from '../store/reducers/contract/thunk';
+
+import { fetchContract } from '../../store/reducers/contract/thunk';
+import StyledContractList from  './StyledContractList'
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -48,13 +49,13 @@ function ContractList() {
     //   });
   }, []);
   return (
-    <div className='contractListWrap'>
+    <StyledContractList className='contractListWrap'>
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 700 }} aria-label="customized table">
           <TableHead>
             <TableRow>
               <StyledTableCell>Id</StyledTableCell>
-              <StyledTableCell align="center">Name</StyledTableCell>
+              <StyledTableCell className="nameWrap" align="center">Name</StyledTableCell>
               <StyledTableCell align="center">Customer Id</StyledTableCell>
             </TableRow>
           </TableHead>
@@ -71,7 +72,7 @@ function ContractList() {
           </TableBody>
         </Table>
       </TableContainer>
-    </div>
+    </StyledContractList>
   )
 }
 
